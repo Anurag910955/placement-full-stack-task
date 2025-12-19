@@ -1,0 +1,158 @@
+.admin-container,
+.admin {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.admin-container h1,
+.admin h2,
+.admin-form h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #0f172a;
+}
+
+.admin-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.admin-nav a,
+.admin a {
+  padding: 16px 32px;
+}
+
+.admin a {
+  padding: 14px 28px;
+  background: #0f172a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.admin-nav a:hover,
+.admin a:hover {
+  background: #020617;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.admin-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 32px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+}
+
+.admin-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.admin-form button {
+  width: 100%;
+  padding: 14px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.admin-form button:hover {
+  background: #020617;
+  transform: translateY(-1px);
+}
+
+.admin-table {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.admin-table h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.admin-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+  color: #374151;
+}
+
+.admin-table th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+.admin-table tr:nth-child(even) {
+  background: #fcfcfc;
+}
+
+.admin-table tr:hover {
+  background: #f1f5f9;
+}
+
+@media (max-width: 768px) {
+  .admin-container h1,
+  .admin h2,
+  .admin-form h2 {
+    font-size: 24px;
+  }
+
+  .admin-form {
+    padding: 32px 20px;
+  }
+
+  .admin-nav a,
+  .admin a {
+    width: 100%;
+    max-width: 260px;
+  }
+}
