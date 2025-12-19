@@ -1,24 +1,130 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+ create mode 100644 backend/node_modules/type-is/README.md
+ create mode 100644 backend/node_modules/type-is/index.js
+ create mode 100644 backend/node_modules/type-is/package.json
+ create mode 100644 backend/node_modules/typedarray/.travis.yml
+ create mode 100644 backend/node_modules/typedarray/LICENSE
+ create mode 100644 backend/node_modules/typedarray/example/tarray.js
+ create mode 100644 backend/node_modules/typedarray/index.js
+ create mode 100644 backend/node_modules/typedarray/package.json
+ create mode 100644 backend/node_modules/typedarray/readme.markdown
+ create mode 100644 backend/node_modules/typedarray/test/server/undef_globals.js
+ create mode 100644 backend/node_modules/typedarray/test/tarray.js
+ create mode 100644 backend/node_modules/unpipe/HISTORY.md
+ create mode 100644 backend/node_modules/unpipe/LICENSE
+ create mode 100644 backend/node_modules/unpipe/README.md
+ create mode 100644 backend/node_modules/unpipe/index.js
+ create mode 100644 backend/node_modules/unpipe/package.json
+ create mode 100644 backend/node_modules/util-deprecate/History.md
+ create mode 100644 backend/node_modules/util-deprecate/LICENSE
+ create mode 100644 backend/node_modules/util-deprecate/README.md
+ create mode 100644 backend/node_modules/util-deprecate/browser.js
+ create mode 100644 backend/node_modules/util-deprecate/node.js
+ create mode 100644 backend/node_modules/util-deprecate/package.json
+ create mode 100644 backend/node_modules/vary/HISTORY.md
+ create mode 100644 backend/node_modules/vary/LICENSE
+ create mode 100644 backend/node_modules/vary/README.md
+ create mode 100644 backend/node_modules/vary/index.js
+ create mode 100644 backend/node_modules/vary/package.json
+ create mode 100644 backend/node_modules/webidl-conversions/LICENSE.md
+ create mode 100644 backend/node_modules/webidl-conversions/README.md
+ create mode 100644 backend/node_modules/webidl-conversions/lib/index.js
+ create mode 100644 backend/node_modules/webidl-conversions/package.json
+ create mode 100644 backend/node_modules/whatwg-url/LICENSE.txt
+ create mode 100644 backend/node_modules/whatwg-url/README.md
+ create mode 100644 backend/node_modules/whatwg-url/index.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/Function.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/URL-impl.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/URL.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/URLSearchParams-impl.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/URLSearchParams.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/VoidFunction.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/encoding.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/infra.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/percent-encoding.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/url-state-machine.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/urlencoded.js
+ create mode 100644 backend/node_modules/whatwg-url/lib/utils.js
+ create mode 100644 backend/node_modules/whatwg-url/package.json
+ create mode 100644 backend/node_modules/whatwg-url/webidl2js-wrapper.js
+ create mode 100644 backend/node_modules/wrappy/LICENSE
+ create mode 100644 backend/node_modules/wrappy/README.md
+ create mode 100644 backend/node_modules/wrappy/package.json
+ create mode 100644 backend/node_modules/wrappy/wrappy.js
+ create mode 100644 backend/node_modules/xtend/.jshintrc
+ create mode 100644 backend/node_modules/xtend/LICENSE
+ create mode 100644 backend/node_modules/xtend/README.md
+ create mode 100644 backend/node_modules/xtend/immutable.js
+ create mode 100644 backend/node_modules/xtend/mutable.js
+ create mode 100644 backend/node_modules/xtend/package.json
+ create mode 100644 backend/node_modules/xtend/test.js
+ create mode 100644 backend/package-lock.json
+ create mode 100644 backend/package.json
+ create mode 100644 backend/routes/clientRoutes.js
+ create mode 100644 backend/routes/contactRoutes.js
+ create mode 100644 backend/routes/projectRoutes.js
+ create mode 100644 backend/routes/subscriberRoutes.js
+ create mode 100644 backend/server.js
+ create mode 100644 backend/uploads/1766167127508-WIN_20220704_17_57_29_Pro.jpg
+ create mode 100644 backend/uploads/1766169384011-Screenshot 2025-12-20 000616.png
+ create mode 100644 backend/uploads/1766169441633-Screenshot 2025-12-20 000708.png
+ create mode 100644 backend/uploads/1766169497893-Screenshot 2025-12-20 000808.png
+ create mode 100644 backend/uploads/1766169577520-Screenshot 2025-12-20 000926.png
+ create mode 100644 backend/uploads/1766169674212-Screenshot 2025-12-20 001107.png
+ create mode 100644 backend/uploads/1766169748445-Screenshot 2025-12-20 001220.png
+ create mode 100644 backend/uploads/1766169804358-Screenshot 2025-12-20 001316.png
+ create mode 100644 backend/uploads/1766169896515-Screenshot 2025-12-20 001448.png
+ create mode 100644 frontend/.gitignore
+ create mode 100644 frontend/README.md
+ create mode 100644 frontend/eslint.config.js
+ create mode 100644 frontend/index.html
+ create mode 100644 frontend/package-lock.json
+ create mode 100644 frontend/package.json
+ create mode 100644 frontend/public/vite.svg
+ create mode 100644 frontend/src/App.css
+ create mode 100644 frontend/src/App.jsx
+ create mode 100644 frontend/src/admin/AddClient.jsx
+ create mode 100644 frontend/src/admin/AddProject.jsx
+ create mode 100644 frontend/src/admin/AdminDashboard.jsx
+ create mode 100644 frontend/src/admin/ViewContacts.jsx
+ create mode 100644 frontend/src/admin/ViewSubscribers.jsx
+ create mode 100644 frontend/src/api.js
+ create mode 100644 frontend/src/assets/react.svg
+ create mode 100644 frontend/src/components/Clients.jsx
+ create mode 100644 frontend/src/components/ContactForm.jsx
+ create mode 100644 frontend/src/components/Navbar.jsx
+ create mode 100644 frontend/src/components/Newsletter.jsx
+ create mode 100644 frontend/src/components/Projects.jsx
+ create mode 100644 frontend/src/index.css
+ create mode 100644 frontend/src/main.jsx
+ create mode 100644 frontend/src/pages/Home.jsx
+ create mode 100644 frontend/src/styles/Admin.css
+ create mode 100644 frontend/src/styles/Clients.css
+ create mode 100644 frontend/src/styles/Contact.css
+ create mode 100644 frontend/src/styles/Home.css
+ create mode 100644 frontend/src/styles/Navbar.css
+ create mode 100644 frontend/src/styles/Newsletter.css
+ create mode 100644 frontend/src/styles/Projects.css
+ create mode 100644 frontend/vite.config.js
+PS C:\Users\ANURAG SEN\OneDrive\Desktop\placement fullstack task> git branch -M main
+PS C:\Users\ANURAG SEN\OneDrive\Desktop\placement fullstack task> git remote add origin https://github.com/Anurag910955/placement-full-stack-task.git
+PS C:\Users\ANURAG SEN\OneDrive\Desktop\placement fullstack task> git push -u origin main
+Enumerating objects: 3096, done.
+Counting objects: 100% (3096/3096), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2949/2949), done.
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+Writing objects: 100% (3096/3096), 5.10 MiB | 42.00 KiB/s, done.
+Total 3096 (delta 502), reused 0 (delta 0), pack-reused 0 (from 0)
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+PS C:\Users\ANURAG SEN\OneDrive\Desktop\placement fullstack task> git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
-node_modules
-dist
-dist-ssr
-*.local
+    git push --set-upstream origin main
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\ANURAG SEN\OneDrive\Desktop\placement fullstack task> 
