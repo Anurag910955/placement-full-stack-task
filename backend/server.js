@@ -10,7 +10,12 @@ const subscriberRoutes = require("./routes/subscriberRoutes");
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://6945a6dc8d50b300967cb122--placementtask123.netlify.app",
+  })
+);
+
 app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
