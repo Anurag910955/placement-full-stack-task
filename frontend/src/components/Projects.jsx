@@ -19,7 +19,7 @@ const Projects = () => {
         {projects.map((p) => (
           <div className="card" key={p._id}>
             <img
-              src={`http://localhost:5000/${p.image}`}
+              src={`https://placement-full-stack-task.onrender.com/${p.image}`}
               alt={p.name}
             />
             <h3>{p.name}</h3>
